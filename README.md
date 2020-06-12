@@ -4,10 +4,10 @@ PlayGaming es un catalogo de videojuegos en el que el usuario tiene una lista de
 El Cliente tambien pude dejar su comentario en cada juego si lo desea.<br>
 Puedes seguir a la gente para ver sus catalogos.<br>
 Si eres administrador puedes acceder a la parte de administracion de la aplicaion que encontraremos que podemos administrar tanto los ususarios como los juegos.
-<br>
+<br> <br>
 Para poder acceder a la parte de administracion os dejo los datos del usuario root.
 <br>
-correo: root@gmail.com
+correo: root@gmail.com <br>
 contraseña: 12345678
 
 <h2>Enlaces</h2>
