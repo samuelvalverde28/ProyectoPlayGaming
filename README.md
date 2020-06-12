@@ -4,6 +4,9 @@
 <a href="https://www.youtube.com/watch?v=tVkEFsbu-Tw">Enlace a video presentacion</a> <br>
 <a href="https://documenter.getpostman.com/view/11639083/SzzgBzkM">Enlace a documentación Api </a>
 
+<h2>Estructura de la Base de Datos</h2>
+<img src="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/Dise%C3%B1oER.PNG" alt="iamgen estructura">
+
 <h2>Bibliografía</h2>
 <a href="https://stackoverflow.com/">Stack Overflow</a> <br>
 <a href="https://www.w3schools.com/">W3schools</a> <br>
