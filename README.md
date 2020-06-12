@@ -1,3 +1,3 @@
 # ProyectoPlayGaming
-<a href="enlace_relativo.html">Enlace a video presentacion:</a>
-Enlace a documentación Api: 
+<a href="https://www.youtube.com/watch?v=tVkEFsbu-Tw">Enlace a video presentacion</a>
+<a href="https://documenter.getpostman.com/view/11639083/SzzgBzkM">Enlace a documentación Api </a>
