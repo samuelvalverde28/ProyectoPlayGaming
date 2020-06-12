@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "3e88b060-3483-4cea-8675-78599d0bf008",
+		"name": "Api",
+		"description": "# Introduction\nWhat does your API do?\n\nMy API is a CRUD in which you can view, add, modify and delete games.\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Show all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "hola",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://samuelvalverde.es/api/game",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"game"
+					]
+				},
+				"description": "list of all games"
+			},
+			"response": []
+		},
+		{
+			"name": "Search ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://samuelvalverde.es/api/game/:id",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"game",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"description": "Search for ID"
+			},
+			"response": []
+		},
+		{
+			"name": "Search Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://samuelvalverde.es/api/gameName/:name",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"gameName",
+						":name"
+					],
+					"variable": [
+						{
+							"key": "name",
+							"value": ""
+						}
+					]
+				},
+				"description": "Search for Name"
+			},
+			"response": []
+		},
+		{
+			"name": "Store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "game identifier",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "name of the game",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "",
+							"description": "rating of the game",
+							"type": "text"
+						},
+						{
+							"key": "rating_top",
+							"value": "",
+							"description": "top rating of the game",
+							"type": "text"
+						},
+						{
+							"key": "released",
+							"value": "",
+							"description": "date released of the game",
+							"type": "text"
+						},
+						{
+							"key": "background_image",
+							"value": "",
+							"description": "Image of the game",
+							"type": "text"
+						},
+						{
+							"key": "clip",
+							"value": "",
+							"description": "clip of the game",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://samuelvalverde.es/api/game",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"game"
+					]
+				},
+				"description": "you can store your games"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "game identifier",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "name of the game",
+							"type": "text"
+						},
+						{
+							"key": "released",
+							"value": "",
+							"description": "date released of the game",
+							"type": "text"
+						},
+						{
+							"key": "background_image",
+							"value": "",
+							"description": "Image of the game",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "",
+							"description": "rating of the game",
+							"type": "text"
+						},
+						{
+							"key": "rating_top",
+							"value": "",
+							"description": "top rating of the game",
+							"type": "text"
+						},
+						{
+							"key": "clip",
+							"value": "",
+							"description": "clip of the game",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://samuelvalverde.es/api/game/:id",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"game",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"description": "you can change any field"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://samuelvalverde.es/api/game/:id",
+					"protocol": "http",
+					"host": [
+						"samuelvalverde",
+						"es"
+					],
+					"path": [
+						"api",
+						"game",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"description": "you can delete a game"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
