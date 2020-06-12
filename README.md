@@ -1,4 +1,15 @@
 # ProyectoPlayGaming
+<h2>Descripción</h2>
+PlayGaming es un catalogo de videojuegos en el que el usuario tiene una lista de jeugos de los cuales elige los que desee para agregarlos a su catalogo, le puede poner estados como jugando, completado, espera y dejado. De cada juego puedes ver su nombre, fecha de lanzamiento, nota de la comunidad, un carrousel de imagenes y un video.<br>
+El Cliente tambien pude dejar su comentario en cada juego si lo desea.<br>
+Puedes seguir a la gente para ver sus catalogos.<br>
+Si eres administrador puedes acceder a la parte de administracion de la aplicaion que encontraremos que podemos administrar tanto los ususarios como los juegos.
+<br>
+Para poder acceder a la parte de administracion os dejo los datos del usuario root.
+<br>
+correo: root@gmail.com
+contraseña: 12345678
+
 <h2>Enlaces</h2>
 
 <a href="https://www.youtube.com/watch?v=tVkEFsbu-Tw">Enlace a video presentacion</a> <br>
