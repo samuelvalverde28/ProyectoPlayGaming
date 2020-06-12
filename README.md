@@ -15,7 +15,10 @@ contraseña: 12345678
 <a href="https://www.youtube.com/watch?v=tVkEFsbu-Tw">Enlace a video presentacion</a> <br>
 <a href="https://documenter.getpostman.com/view/11639083/SzzgBzkM">Enlace a documentación Api </a> <br>
 <a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/ProyectoDAW.pdf">PDF de documentación de DAW </a> <br>
-<a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/PlayGamingFunciones.pdf">PDF de documentacion de las funcionalidades de la pagina web </a>
+<a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/PlayGamingFunciones.pdf">PDF de documentacion de las funcionalidades de la pagina web </a><br>
+<a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/tree/master/Anexo">Enlace al archivo Anexo</a> 
+
+
 
 <h2>Estructura de la Base de Datos</h2>
 <img src="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/Dise%C3%B1oER.PNG" alt="iamgen estructura">
