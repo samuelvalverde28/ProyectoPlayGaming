@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(1, 41, 53);
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.navbar{
+    background-color: rgba(72, 196, 196, 1); 
+    box-shadow: inset 0 -3px 1px 0 rgba(1,41,53,0.75);
+}
+
+.nav-link{
+    color: rgb(229, 255, 252);
+    font-size: 16px;
+}
+
+.navbar-brand{
+    color: rgb(229, 255, 252);
+}
+
+.card-header{
+    background-color: #bababa;
+}
+
+.card-body{
+    background-color: #cfcfcf; 
+}
+
+.btn-per{
+    background-color: rgba(72, 196, 196, 1);
+    border: none;
+    color: white;
+}
+
+.row{
+    align-items: center;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.py-4{
+    height: calc(100% - 55px);
+}
+
+#app{
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.containerImagen{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+
+.navbar-toggler-icon{
+    background-image: url('../img/menu_hamburguesa.png');
+}
+
+.centrado{
+    text-align: center;
+}
+
+.imagenes_peque{
+    width: 105px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.btn-link{
+    color: white;
+    font-size: 18px;
+}
+
+.ul_dis{
+    /* list-style-type: none; */
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.li_dis {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    background-color: rgba(72, 196, 196, 1);
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.listas{
+    width: 100%;
+    
+}
+
+.clip{
+    width: 50%;
+    margin: 5px;
+
+}
+
+.carouselpersonalizado{
+    width: 50%;
+    margin: 5px;
+}
+
+.containercarvid{
+    display: flex;
+    background: linear-gradient(180deg, rgba(72,196,196,1) 0%, rgba(255,255,255,1) 87%);
+    border-radius: 5px;
+    
+}
+
+.eliminar, .add{
+   float: right;
+   color: red;
+   background-color: white;
+   border-radius: 50%;
+   margin-top: 21px;
+   height: 28px;
+   width: 28px;
+   /* cursor: pointer; */
+}
+
+.add{
+    color: green;
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+
+    .clip{
+    width: 100%;
+    margin: 5px;
+    
+    }
+
+    .carouselpersonalizado{
+    width: 100%;
+    margin: 5px;
+    }
+
+    .containercarvid{
+    background: linear-gradient(90deg, rgba(72,196,196,1) 0%, rgba(255,255,255,1) 87%);
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media (max-width: 544px) {
+
+    .respon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eliminar, .add{
+        margin-top: 5px;
+     }
+
+     
+
+}

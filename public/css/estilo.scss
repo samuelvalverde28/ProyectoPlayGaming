@@ -1,0 +1,348 @@
+$colorFondoBase: rgb(1, 41, 53);
+$colorFondoBaseTransparencia: rgba(1, 41, 53, 0.75);
+$ColorNav: rgb(229, 255, 252);
+$azulClaro: rgba(72, 196, 196, 1);
+
+
+body {
+    background-color: $colorFondoBase;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .fondo {
+    background-color: $colorFondoBase;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .fondonavbar {
+    background-color: $azulClaro;
+    box-shadow: inset 0 -3px 1px 0 $colorFondoBaseTransparencia;
+  }
+  
+  .nav-link {
+    color: $ColorNav;
+    font-size: 16px;
+  }
+  
+  .navbar-brand {
+    color: $ColorNav;
+  }
+  
+  .card-header {
+    background-color: #bababa;
+  }
+  
+  .card-body {
+    background-color: #cfcfcf;
+  }
+  
+  .btn-per {
+    background-color: $azulClaro;
+    border: none;
+    color: white;
+  }
+  
+  .row {
+    align-items: center;
+    height: 100%;
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  .py-4 {
+    height: calc(100% - 55px);
+  }
+  
+  #app, html {
+    height: 100%;
+  }
+  
+  .containerImagen {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar-toggler {
+    background-color: whitesmoke;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('../img/menu_hamburguesa.png');
+  }
+  
+  .centrado {
+    text-align: center;
+  }
+  
+  .imagenes_peque {
+    width: 105px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .btn-link {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .ul_dis {
+    /* list-style-type: none; */
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .li_dis {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: $azulClaro;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+  }
+  
+  .listas {
+    width: 100%;
+  }
+  
+  .clip, .carouselpersonalizado {
+    width: 50%;
+    margin: 5px;
+  }
+  
+  .containercarvid {
+    display: flex;
+    background: linear-gradient(180deg, $azulClaro 0%, rgba(255, 255, 255, 1) 87%);
+    border-radius: 5px;
+  }
+  
+  .eliminar {
+    float: right;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 21px;
+    height: 28px;
+    width: 28px;
+  
+    /* cursor: pointer; */
+  }
+  
+  .add {
+    float: right;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 21px;
+    height: 28px;
+    width: 28px;
+  
+    /* cursor: pointer; */
+  
+    color: green;
+  }
+  
+  .modificar {
+    color: #3490dc;
+    background-color: none;
+    float: right;
+    border-radius: 50%;
+    margin-top: 21px;
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+  }
+  
+  .nav-tabs {
+    margin-bottom: 20px;
+  }
+  
+  .derecha {
+    float: right;
+  }
+  
+  .espacioentrebotonesderecho {
+    margin-right: 4px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .progreso {
+    height: 20px;
+  }
+  
+  .estatico {
+    position: absolute;
+    background-color: #aaa;
+    height: 84px;
+    width: 65px;
+  }
+  
+  table {
+    th, td {
+      white-space: nowrap;
+    }
+  }
+  
+  .first-col {
+    padding-left: 75px !important;
+    width: 300px;
+  }
+  
+  .paginacion {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tituloconfigJuegos {
+    margin: 0;
+    color: white;
+  }
+  
+  .barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .barraconmargin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .cardImagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comments {
+    border-bottom: 1px solid #00476e;
+    padding: 5px;
+    background-color: #327bf0;
+    color: white;
+  
+    &:hover {
+      border-bottom: 1px solid #00476e;
+      padding: 5px;
+      background-color: #00476e;
+      color: white;
+    }
+  }
+  
+  .centrarComentarios {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .centradoImagen {
+    display: block;
+    margin: auto;
+  }
+  
+  .tituloComentarios {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .romper {
+    word-break: break-all;
+  }
+  
+  .imgProfile {
+    width: 50%;
+  
+    &:hover .letra {
+      font-size: 20px;
+    }
+  }
+  
+  .letra {
+    font-size: 0px;
+  }
+  
+  .colorBlanco {
+    color: white;
+  }
+  
+  .elimi {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .textoCorreo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .textoCorreo2 {
+    margin-left: auto;
+  }
+  
+  .derechaSpan {
+    display: block;
+    float: right;
+    font-size: smaller;
+  }
+
+  .canvasContainer{
+    width: 80%;
+    height: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  @media (max-width: 767.98px) {
+    .clip, .carouselpersonalizado {
+      width: 100%;
+      margin: 5px;
+    }
+  
+    .containercarvid {
+      background: linear-gradient(90deg, $azulClaro 0%, rgba(255, 255, 255, 1) 87%);
+      border-radius: 5px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 544px) {
+    .respon {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .eliminar, .add {
+      margin-top: 5px;
+    }
+  
+    .modificar {
+      margin-top: 5px;
+      margin-right: 0px;
+    }
+  
+    .fondo {
+      justify-content: center;
+    }
+  }
