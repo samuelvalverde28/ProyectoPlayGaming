@@ -17,7 +17,7 @@ contraseña: 12345678
 <a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/ProyectoDAW.pdf">PDF de documentación de DAW </a> <br>
 <a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/blob/master/Anexo/PlayGamingFunciones.pdf">PDF de documentacion de las funcionalidades de la pagina web </a><br>
 <a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/tree/master/Anexo">Enlace al archivo Anexo</a> 
-
+<a href="https://github.com/samuelvalverde28/ProyectoPlayGaming/tree/master/DocumentacionAutomatica">Enlace a la Documentacion Automatica con phpDocumentor.phar</a> 
 
 
 <h2>Estructura de la Base de Datos</h2>
